@@ -1,6 +1,8 @@
 package ru.learnUp;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import ru.learnUp.Annotation.LogMethod;
+import ru.learnUp.Annotation.WorkTime;
 
 public class Main {
 
@@ -15,7 +17,6 @@ public class Main {
 
         game.play();
         game.welcomePlayer(player);
-
         context.close();
 
 
